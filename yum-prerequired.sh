@@ -1,5 +1,5 @@
 echo 'Update apt'
-sudo yum update
+yes | sudo yum update
 
 
 echo
@@ -16,7 +16,7 @@ yes | zsh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/
 
 echo
 echo 'Install curl'
-sudo yum install curl
+yes | sudo yum install curl
 
 
 echo
